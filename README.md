@@ -2,8 +2,7 @@
 A simple wrapper around requests to make calls asynchronous. 
 
 
-.. code-block:: python
-
+# Usage
     >>> async_r = requests.get('https://api.github.com/user', auth=('user', 'pass'))
     >>> r = async_r.get()  # This will then block so add time before to prevent blocking
     >>> r.status_code
