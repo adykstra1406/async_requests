@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: async-requests
+Version: 1.0
+Summary: A simple wrapper for non-blocking requests methods.
+Home-page: UNKNOWN
+Author: Alex Dykstra
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: requests

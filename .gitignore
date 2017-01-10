@@ -1,2 +1,6 @@
 /py_requests
 *.pyc
+test_requests.py
+
+dist
+.egg-info
