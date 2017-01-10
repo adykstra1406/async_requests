@@ -9,7 +9,7 @@ def request(method, url, **kwargs):
 
 def get(url, params=None, **kwargs):
     pool = ThreadPool(processes=1)
-    return result = pool.apply_async(requests.get, (url, params), **kwargs)
+    return pool.apply_async(requests.get, (url, params), **kwargs)
 
 
 def head(url, **kwargs):
